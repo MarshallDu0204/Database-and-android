@@ -1,0 +1,283 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/timg10"
+    tools:context="com.example.cooking.MainActivity" >
+
+   <ScrollView
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+		<TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Name"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<TextView
+		    android:id="@+id/textView3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="25dp"
+		    android:text="time(min)"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Ingredients:"
+            />
+		 <ScrollView
+            android:id="@+id/scrollView4"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+       <EditText
+           android:id="@+id/editText1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+            />
+	</ScrollView>
+	 <ScrollView
+            android:id="@+id/scrollView5"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+      <EditText
+          android:id="@+id/editText2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+	</ScrollView>
+	 <ScrollView
+            android:id="@+id/scrollView6"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+		</ScrollView>
+		<ScrollView
+            android:id="@+id/scrollView7"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+		</ScrollView>
+		<ScrollView
+            android:id="@+id/scrollView8"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+         <EditText
+             android:id="@+id/editText5"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+              />
+		</ScrollView>
+		<ScrollView
+            android:id="@+id/scrollView9"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+       <EditText
+           android:id="@+id/editText6"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+            />
+		</ScrollView>
+		<ScrollView
+            android:id="@+id/scrollView10"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+		 <EditText
+		     android:id="@+id/editText7"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		   />
+		</ScrollView>
+		<ScrollView
+            android:id="@+id/scrollView11"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+        	</ScrollView>
+          <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_marginRight="22dp"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <requestFocus />
+            </EditText>
+        </ScrollView>
+		 <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+         <EditText
+            android:id="@+id/editText12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            
+        </EditText>
+        </ScrollView>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Quantity"
+            />
+		<ScrollView
+            android:id="@+id/scrollView12"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+       <EditText
+           android:id="@+id/Text1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           />
+		</ScrollView>
+		<ScrollView
+            android:id="@+id/scrollView13"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+        <EditText
+            android:id="@+id/Text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+		</ScrollView>
+		<ScrollView
+            android:id="@+id/scrollView14"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+        <EditText
+            android:id="@+id/Text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+		</ScrollView>
+		<ScrollView
+            android:id="@+id/scrollView15"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+       <EditText
+           android:id="@+id/Text4"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           />
+		</ScrollView>
+		<ScrollView
+            android:id="@+id/scrollView16"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+       <EditText
+           android:id="@+id/Text5"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+            />
+		</ScrollView>
+		<ScrollView
+            android:id="@+id/scrollView18"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+        <EditText
+            android:id="@+id/Text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+	</ScrollView>
+	<ScrollView
+            android:id="@+id/scrollView17"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+      <EditText
+            android:id="@+id/Text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+           
+        </EditText>
+ 		</ScrollView>
+ 		<ScrollView
+            android:id="@+id/scrollView19"
+            android:layout_width="100dp"
+            android:layout_height="40dp" >
+ 		<EditText
+ 		    android:id="@+id/Text8"
+ 		    android:layout_width="match_parent"
+ 		    android:layout_height="wrap_content"
+ 		     />
+        </ScrollView>
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:text="next" />
+    </LinearLayout>
+
+  
+
+    
+
+    </RelativeLayout>
+</ScrollView>
+
+   
+    
+</RelativeLayout>

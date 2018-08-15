@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cooking"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+	<uses-permission  android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".List"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name=".Pizza"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name=".pizza1"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".Pasta"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".pasta1"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".Movie"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name=".Adddish"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name=".Addstep"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name=".Graph"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <receiver android:name=".receiver">
+            <intent-filter >  
+                <action android:name="android.intent.action.MY_BROADCAST"/>
+                 <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter>
+        </receiver>
+         <receiver android:name=".receiver1">
+            <intent-filter > 
+                <action android:name="android.intent.action.MY_BROADCAST"/>
+                 <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter>
+        </receiver>
+        
+         <activity
+            android:name=".Step1"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name=".Dish1"
+            android:label="@string/app_name" >
+            
+        </activity>
+    </application>
+
+</manifest>
